@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+h1 {
+  font-family: Garamond;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 80px;
+  color: aqua;
+}
+
+h2 {
+  font-family: Garamond;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 50px;
+  color: orangered;
+}
+
+img {
+  width: 380;
+}
+
+#img1 {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  filter: fliph;
+}
